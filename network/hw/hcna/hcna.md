@@ -170,7 +170,7 @@ ARP: Address Resolution Protocol， 地址解析协议（网络层协议），�
 源设备通过某种机制（例如 DNS ）获取目的设备 IP 地址， 再通过 ARP 获得目的设备 MAC 地址。
 
 ARP 工作原理：  
-![](images/hcna/ARP.png)
+![](https://github.com/lynbklk/kubernetes-note/blob/master/images/hcna/ARP.png)
 
 ARP 缓存：每台主机收到 ARP 报文时，都会通过报文里的源 IP 和源 MAC 地址更新自己的 ARP 缓存，缓存条目有 180s 生存期。 主机需要向其他设备发送单播帧时先查 APR 缓存。
 
