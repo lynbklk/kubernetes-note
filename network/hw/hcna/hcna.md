@@ -51,7 +51,7 @@ OSI 协议簇：
 
 TCP/IP 模型数据封装过程：
 
-![](images/hcna/TCPIPPacketProgress.png)
+![](https://github.com/lynbklk/kubernetes-note/blob/master/images/hcna/TCPIPPacketProgress.png)
 
 ### 1.4 网络划分
 
@@ -125,9 +125,9 @@ TCP/IP 模型数据封装过程：
 以太帧有两种格式：
 
 - IEEE 802.3 格式  
-![](images/hcna/8023Frame.png)
+![](https://github.com/lynbklk/kubernetes-note/blob/master/images/hcna/8023Frame.png)
 - Ethernet II 格式  
-![](images/hcna/ethernetFrame.png)
+![](https://github.com/lynbklk/kubernetes-note/blob/master/images/hcna/ethernetFrame.png)
 
 目前的网络设备兼容两种格式的帧，绝大部分以太帧使用 Ethernet II 格式。
 
@@ -175,7 +175,7 @@ ARP 工作原理：
 ARP 缓存：每台主机收到 ARP 报文时，都会通过报文里的源 IP 和源 MAC 地址更新自己的 ARP 缓存，缓存条目有 180s 生存期。 主机需要向其他设备发送单播帧时先查 APR 缓存。
 
 ARP 报文格式：  
-![](images/hcna/ARPProtocol.png)
+![](https://github.com/lynbklk/kubernetes-note/blob/master/images/hcna/ARPProtocol.png)
 
 ## 4. STP 协议
 
